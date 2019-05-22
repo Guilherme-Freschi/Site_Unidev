@@ -1,51 +1,43 @@
-html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
-    -webkit-font-smoothing: antialiased;
+body
+{
+   background-image: url(digital.jpg)
 }
-
-body {
-    background: #fff;
-    color: #545454;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
+.login
+{
+    background-color: floralwhite;
+    color:dodgerblue;
+    width: 450px;
+    height: 400px;
+    margin:100px 0 0 480px;
+    text-align: center;
+    border-radius: 20px;
+    
 }
-
-h1, h2, h3{
-    color: #222;
-    font-weight: 500;
-    line-height: 1.3;
+.login input
+{
+  display: block;
+  margin: auto;
+  width: 85%;
+  border-radius: 20px;
+  font-size: 20px;
+  color:black;
+    
+    
 }
-
-h2 {
-    margin-top: 1.3em;
+.login label
+{
+    display: block;
+    padding: 10px 10px 5px 15px;
+    font-size: 30px;
+    color: black;
+    
 }
-
-a {
-    color: #0083e8;
+    
 }
-
-b, strong {
-    font-weight: 600;
-}
-fieldset {
-    max-width: 500;
-}
-
-
-
-
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
+.login img
+{
+ display: block;
+ border: 4px;
+    
+    
 }
